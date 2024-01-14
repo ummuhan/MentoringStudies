@@ -9,17 +9,17 @@ class Customer(var name: String, var surname: String, var age: Int) {
     }
 
     fun isMarried(married: Boolean, surname: String) {
-        if(married)
+        if (married)
             changeSurname(surname)
     }
 
     fun changeSurname(surname: String) {
         println("Customer new surname ${this.surname} $surname")
-        this.surname=this.surname+" "+surname
+        this.surname = this.surname + " " + surname
     }
 
-    fun newAge(){
-        println("Happy birthday!! New age is ${this.age+1}")
+    fun newAge() {
+        println("Happy birthday!! New age is ${this.age + 1}")
         age += 1
     }
 }
