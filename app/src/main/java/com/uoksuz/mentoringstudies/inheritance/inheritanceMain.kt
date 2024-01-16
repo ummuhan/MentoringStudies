@@ -8,5 +8,5 @@ fun main() {
     println("Car power :${car.motorPower}")
     println("Car speed : ${car.speed}")
     println("Car seat heater : ${if (car.seatHeater) "Yes" else "False"}")
-    
+
 }
